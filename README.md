@@ -39,3 +39,5 @@ uvicorn main:app --reload
 ```
 pip freeze > requirements.txt
 ```
+
+- Deployed to Heroku and using a [cron-job](cron-job.org) to keep the API running
